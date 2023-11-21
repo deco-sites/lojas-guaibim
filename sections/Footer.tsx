@@ -65,8 +65,7 @@ export default function Footer({
   return (
     <section
       style={{
-        backgroundImage:
-          "url('/backgroundTexture.webp'), linear-gradient(to top, #5b0d0d, #151111)",
+        background: "transparent",
       }}
       className="py-28 flex w-full justify-center items-center gap-8 flex-col px-[8vw]"
     >

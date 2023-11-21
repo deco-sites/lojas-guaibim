@@ -23,7 +23,7 @@ export default function DiscountsByCategory({
   ],
 }: Props) {
   return (
-    <section className="bg-[#171111] py-[8vw] sm:p-[8vw]">
+    <section className="bg-[#17111100] py-[8vw] sm:p-[8vw]">
       <div className="w-full flex justify-center sm:justify-start">
         <SectionTitle
           invertMarkedText

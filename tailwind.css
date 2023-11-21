@@ -8,6 +8,16 @@
     font-family: var(--font-family);
   }
 
+  body {
+    background: url('/backgroundHome.jpg'), #111111;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 140vh;
+    @media (max-width: 768px){
+      background-size: auto 70vh;
+    }
+  }
+
   /** Remove default styles from input[type=number] */
   input[type="number"]::-webkit-inner-spin-button,
   input[type="number"]::-webkit-outer-spin-button {

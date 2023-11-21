@@ -33,15 +33,15 @@ export default function Home({
   return (
     <section
       style={{
-        backgroundImage:
-          "url('/backgroundSphere.svg'), url('/backgroundTexture.webp'), linear-gradient(to bottom, #5b0d0d, #151111)",
-        backgroundPosition: "center, center",
-        backgroundSize: "40vw, cover, 100vw",
+        // backgroundImage: "url('/backgroundHome.jpg')",
+        // backgroundPosition: "top",
+        // backgroundSize: "cover",
+        // backgroundRepeat: "no-repeat",
       }}
-      className="min-h-screen w-full bg-no-repeat"
+      className="min-h-screen w-full"
     >
       <Header {...header} />
-      <div className=" w-full h-full flex flex-col items-center justify-center gap-16 sm:px-[8vw]">
+      <div className=" w-full h-full flex flex-col items-center justify-center gap-16 sm:px-[8vw] sm:pt-16">
         <div className="flex flex-col md:flex-row items-center justify-center w-full md:justify-between md:items-center">
           <div className="px-[10vw] sm:px-0">
             <BlackFridayDescription {...blackFridayDesciption} />

@@ -39,8 +39,8 @@ function ProductCard({ product }: Props) {
             alt={product.isVariantOf?.name}
             title={product.isVariantOf?.name}
             loading="lazy"
-            width={297}
-            height={445}
+            width={500}
+            height={500}
             className="rounded-t-md h-full object-cover" // Use 'className' em vez de 'class'
           />
         </div>
@@ -67,10 +67,9 @@ function ProductCard({ product }: Props) {
               : null}
           </span>
           <div className="my-1 flex flex-col">
-            <span className="text-purple-600 font-semibold text-left">
+            <span className="text-white bg-[#95C559] rounded-md py-2 px-4 font-semibold text-left">
               Black Friday
             </span>
-            <span className="text-red-600 font-semibold text-left">Outlet</span>
           </div>
         </div>
       </a>

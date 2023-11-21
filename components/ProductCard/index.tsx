@@ -30,9 +30,11 @@ function ProductCard({ product }: Props) {
     }).format(price);
   };
 
+  const url = product.isVariantOf?.url.split("/");
+
   return (
     <div className="w-[297px] shrink-0 rounded-md bg-white select-none">
-      <a href={product.isVariantOf?.url}>
+      <a href={"https://www.lojasguaibim.com.br/" + url[url.length - 2] + "/" + url[url.length - 1]} target="_blank">
         <div className="relative mb-1">
           <Image
             src={images?.[0]?.url || ""}

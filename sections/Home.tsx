@@ -48,9 +48,9 @@ export default function Home({
           </div>
           <ShowCaseCarousel products={products} {...showCaseCarousel} />
         </div>
-        <div class="w-full px-3">
+        {/* <div class="w-full px-3">
           <BenefitBar {...banefitBar} />
-        </div>
+        </div> */}
       </div>
     </section>
   );
